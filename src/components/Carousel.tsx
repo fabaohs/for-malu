@@ -6,12 +6,7 @@ interface CarouselProps {
 }
 
 export function Carousel({ className = "" }: CarouselProps) {
-  const images = [
-    "../../public/we-1.jpg",
-    "../../public/we-2.jpg",
-    "../../public/we-3.jpg",
-    "../../public/we-4.jpg",
-  ];
+  const images = ["/we-1.jpg", "/we-2.jpg", "/we-3.jpg", "/we-4.jpg"];
 
   return (
     <div className={`w-full ${className}`}>
